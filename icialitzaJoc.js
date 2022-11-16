@@ -31,3 +31,11 @@ function creaTaula() {
   // tbl border attribute to
 
 }
+
+inicialitzaMines() {
+
+  let nMines = document.getElementById("minas").valueAsNumber;
+  let midaX = document.getElementById("inputAncho").valueAsNumber;
+  let miday = document.getElementById("inputAlto").valueAsNumber;
+
+}
