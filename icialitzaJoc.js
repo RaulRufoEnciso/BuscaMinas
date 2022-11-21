@@ -32,6 +32,24 @@ function creaTaula() {
 
 }
 
+function matriuBinaria(matrix) {
+  
+  var matrix2 =[];
+  for (var i = 0; i < matrix.length; i++) {
+    let fila = []
+      for (var j = 0; j < matrix[j].length; j++) {
+      if (matrix[i][j].style.backgroundColor == "red") {
+        fila.push(1)
+      }
+      else{
+          fila.push(0)
+      }
+      }
+      matrix2.push(fila);
+  }
+  return matrix2;
+}
+
 inicialitzaMines() {
 
   let nMines = document.getElementById("minas").valueAsNumber;
